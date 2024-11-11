@@ -11,3 +11,5 @@ The duration of a dash is three times the duration of a dot. Each dot or dash wi
 a character is followed by a period of signal absence, called a space, equal to the dot duration.
 The letters of a word are separated by a space of duration equal to three dots, and the words are
 separated by a space equal to seven dots.
+
+Arduino Morse Code Generator YouTube:  https://youtu.be/PqqmuAMUUV4?si=ijVl2BcIaU3UjVy1
