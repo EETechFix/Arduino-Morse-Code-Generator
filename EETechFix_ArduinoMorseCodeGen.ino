@@ -38,20 +38,20 @@ void loop()
 char ch;
 if (Serial.available() > 0)
 {
-ch = Serial.read(); // retrieve letter code
+ch = Serial.read(); // retrieve letter's code from array
 if (ch >= 'a' && ch <= 'z')
 {
 getCode(letters[ch - 'a']); // 'k'= 107 - 'a'= 97 ('k' - 'a' = 10)
 }
 else if (ch >= 'A' && ch <= 'Z')
 {
-getCode(letters[ch - 'A']); // 'A'= 65
+getCode(letters[ch - 'A']); // 'A'= 65  'Z' = 90
 }
-else if (ch >= '0' && ch <= '9')
+else if (ch >= '0' && ch <= '9')  // '9'= 57
 {
 getCode(numbers[ch - '0']); // '0'= 48
 }
-else if (ch == ' ')
+else if (ch == ' ')  // ' ' = spsce (32)
 {
 delay(dotDelay * 7); // spacing between words
 }
