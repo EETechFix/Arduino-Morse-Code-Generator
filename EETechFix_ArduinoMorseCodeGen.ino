@@ -33,6 +33,7 @@ Serial.begin(115200);
 Serial.println(" Enter your message, then press Send");
 Serial.println(" (Characters text a -z, A-Z, 0 - 9)");
 }
+
 void loop()
 {
 char ch;
