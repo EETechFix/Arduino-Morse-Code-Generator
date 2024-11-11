@@ -51,7 +51,7 @@ else if (ch >= '0' && ch <= '9')  // '9'= 57
 {
 getCode(numbers[ch - '0']); // '0'= 48
 }
-else if (ch == ' ')  // ' ' = spsce (32)
+else if (ch == ' ')  // ' ' = space (32)
 {
 delay(dotDelay * 7); // spacing between words
 }
